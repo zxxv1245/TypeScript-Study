@@ -2,8 +2,10 @@
   "compilerOptions": {
     "target": "ESNext",
     "module": "ESNext",
-    "outDir": "dist"
+    "outDir": "dist", // js 파일로 변환시 Dist라는 폴더에 생성
+    "strict": true, // 엄격한 검사
+    "moduleDetection": "force",   // 모듈 시스템 키워드 자동으로 추가
+    "skipLibCheck": true  // 에러 해결
   },
-  "include": ["src"],
-  "skipLibCheck": true
+  "include": ["src"], // 기본 경로 설정
 }

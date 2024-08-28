@@ -1,10 +1,12 @@
-import { hello } from "./hello"
+// import { hello } from "./hello"
 
-hello();
+// hello();
 
-// console.log("Hello TypeScript")
-// const a : number = 1;
+// // console.log("Hello TypeScript")
+// // const a : number = 1;
 
-// const func = () => {
-//   console.log("func")
-// }
+// // const func = () => {
+// //   console.log("func")
+// // }
+
+const a = 1;
